@@ -83,7 +83,7 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA ра
   
 ## Авторы и благодарности
   
-Alex Ekb за RGB2VGA конвертор  
-Сообществу [Scorpion ZS \& Ленинград](https://t.me/zs\_scorpion) и моим друзьям.
+Alex Ekb [Алексей](https://github.com/AlexEkb4ever) за RGB2VGA конвертор  
+Сообществу [Scorpion ZS \& Ленинград](https://t.me/zs\_scorpion) и моим друзьям.  
 Отдельная благодарность за советы и техпомощь HRDY [Дмитрий](https://github.com/demyanenko-d)
 
