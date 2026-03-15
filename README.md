@@ -79,7 +79,7 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA ра
   
 ## VGA
   
-Прохивка для RP2040-zero находится [тут](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/tree/main/VGA)  
+Прошивка для RP2040-zero находится [тут](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/tree/main/VGA)  
   
 ## Авторы и благодарности
   
