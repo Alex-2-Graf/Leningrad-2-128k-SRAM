@@ -46,7 +46,7 @@
 
 ![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Jumpers/L2\_Nemo\_1\_1.jpg)  
   
-Ну и связи с тем, что у нас теперь есть полноценный арбитр появилась возможность  
+Ну и связи с тем, что у нас теперь есть полноценный арбитр, появилась возможность  
 добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.html) [Схема](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.pdf) [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_gerber.zip)  
   
 ![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_PCB.png)
