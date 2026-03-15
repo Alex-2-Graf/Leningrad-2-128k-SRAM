@@ -32,7 +32,7 @@
   
 ![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/L2\_Rev2.02.png)  
   
-Так же был выпущен переходник на Немо и ZX-bus \[Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/L2\_NS\_Rev\_1\_1\_Gerber.zip)  
+Так же был выпущен переходник на Немо и ZX-bus [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/L2\_NS\_Rev\_1\_1\_Gerber.zip)  
 
 ![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/Back\_L2\_Nemo\_Spec\_PCB.png)  
   
