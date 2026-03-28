@@ -84,7 +84,7 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
 ## Рекомендуемые аксессуары
 
 * [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
-* 
+* [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
   
 ## Авторы и благодарности
   
