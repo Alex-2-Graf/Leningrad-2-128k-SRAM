@@ -11,13 +11,13 @@
 Также был добавлен арбитр IORQ.  
 В результате на свет появился «Ленинград 2 NEXT 128K + TS 2025».  
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/L2\_Rev2.00.png)  
+![](Foto/L2\_Rev2.00.png)  
   
 После сборки и отладки были устранены мелкие недостатки.  
 Также по настойчивым просьбам друзей проект получил новое название.  
-Свет увидела новая версия [2.01](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
+Свет увидела новая версия [2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/L2\_Rev2.01.png)  
+![](Foto/L2\_Rev2.01.png)  
   
 Не обошлось и без курьёза.  
 По настойчивой просьбе производителя плат  
@@ -25,16 +25,16 @@
   
 После сборки всё заработало без нареканий.  
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/L2\_2.01.jpg)  
+![](Foto/L2\_2.01.jpg)  
   
 Перед выпуском следующей версии были добавлены индикатор питания и исправлен порт джойстика.  
-В производство отправилась версия [2.02](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
+В производство отправилась версия [2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
   
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/L2\_Rev2.02.png)  
+![](Foto/L2\_Rev2.02.png)  
   
-Также был выпущен переходник на Немо и ZX-bus [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/L2\_NS\_Rev\_1\_1\_Gerber.zip)  
+Также был выпущен переходник на Немо и ZX-bus [Gerber](Gerber/L2\_NS\_Rev\_1\_1\_Gerber.zip)  
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/Back\_L2\_Nemo\_Spec\_PCB.png)  
+![](Foto/Back\_L2\_Nemo\_Spec\_PCB.png)  
   
 Его отличие от предыдущего заключается в использовании сигнала /IORQ-GE по прямому назначению.  
 Если раньше /IORQ-GE приходил на A19 (+beta),  
@@ -42,19 +42,19 @@
 То есть в переходнике первой ревизии необходимо отрезать дорожку от A19 и припаять её к A17.  
 Всё! Вы стали обладателем второй ревизии.  
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Jumpers/L2\_Nemo\_1\_0.jpg)
+![](Jumpers/L2\_Nemo\_1\_0.jpg)
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Jumpers/L2\_Nemo\_1\_1.jpg)  
+![](Jumpers/L2\_Nemo\_1\_1.jpg)  
   
 Ну и в связи с тем, что у нас теперь есть полноценный арбитр, появилась возможность  
-добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.html) [Схема](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.pdf) [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Gerber/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_gerber.zip)  
+добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.html) [Схема](Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.pdf) [Gerber](Gerber/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_gerber.zip)  
   
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_PCB.png)
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.jpg)  
+![](Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_PCB.png)
+![](Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.jpg)  
   
 Результат оправдал ожидания.  
 
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Foto/L2\_2.00.jpg)  
+![](Foto/L2\_2.00.jpg)  
   
 ## Сборка
   
@@ -66,20 +66,20 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
 Но при этом все резисторы R24-31 заменяются на 270 Ом.  
 Джампер J9 необходим для снятия питания с RP2040-Zero при перепрошивке.  
   
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Jumpers/J9.jpg)  
+![](Jumpers/J9.jpg)  
   
 Джампер J12 необходим для выбора прошивки БДИ  
 в случае установки 27256 с двумя версиями TR-DOS.  
   
-![](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/blob/main/Jumpers/J12.jpg)  
+![](Jumpers/J12.jpg)  
   
 ## ПЗУ
   
-ПЗУ для проекта находятся [тут](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/tree/main/ROM)  
+ПЗУ для проекта находятся [тут](ROM)  
   
 ## VGA
   
-Прошивка для RP2040-Zero находится [тут](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM/tree/main/VGA)  
+Прошивка для RP2040-Zero находится [тут](VGA)  
 
 ## Рекомендуемые аксессуары
 
