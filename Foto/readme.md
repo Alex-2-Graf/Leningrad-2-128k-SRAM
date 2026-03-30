@@ -40,7 +40,7 @@
 
 ![](Back\_L2\_Nemo\_Spec\_PCB.png)  
 
-![](hBack\_L2\_Nemo\_Spec.jpg)  
+![](Back\_L2\_Nemo\_Spec.jpg)  
 
 &#x20; 
 
