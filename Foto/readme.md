@@ -6,9 +6,9 @@
 
 &#x20; 
 
-![](L2\_Rev2.00.png)  
+![](L2_Rev2.00.png)  
 
-![](L2\_2.00.jpg)  
+![](L2_2.00.jpg)  
 
 &#x20; 
 
@@ -16,9 +16,9 @@
 
 &#x20; 
 
-![](L2\_Rev2.01.png)  
+![](L2_Rev2.01.png)  
 
-![](L2\_2.01.jpg)  
+![](L2_2.01.jpg)  
 
 &#x20; 
 
@@ -26,11 +26,11 @@
 
 &#x20; 
 
-![](PCB\_Rev2.02.png)  
+![](PCB_Rev2.02.png)  
 
-![](L2\_Rev2.02.png)  
+![](L2_Rev2.02.png)  
 
-![](L2\_2.02.jpg)  
+![](L2_2.02.jpg)  
 
 &#x20; 
 
@@ -38,9 +38,9 @@
 
 &#x20; 
 
-![](Back\_L2\_Nemo\_Spec\_PCB.png)  
+![](Back_L2_Nemo_Spec_PCB.png)  
 
-![](Back\_L2\_Nemo\_Spec.jpg)  
+![](Back_L2_Nemo_Spec.jpg)  
 
 &#x20; 
 
@@ -48,7 +48,7 @@
 
 &#x20; 
 
-![](Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_PCB.png)  
+![](Back_L2_Nemo_x3_Spec_Ver2.1_PCB.png)  
 
-![](Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.jpg)  
+![](Back_L2_Nemo_x3_Spec_Ver2.1.jpg)  
 
