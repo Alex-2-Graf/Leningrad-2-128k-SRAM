@@ -1,7 +1,7 @@
-# Leningrad-2-128k-SRAM
-
-## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.
-
+# Leningrad-2-128k-SRAM  
+  
+## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.  
+  
 После успешного запуска [Leningrad-2-48k](https://github.com/Alex-2-Graf/LENINGRAD-2-48k) и с учётом предложений сообщества  
 было принято решение использовать в проекте статическую память вместо динамической.  
 Пришлось существенно переделать узел обращения к памяти.  
@@ -12,14 +12,14 @@
   
 В результате на свет появился «Ленинград 2 NEXT 128K + TS 2025».  
   
-![](Foto/L2\_Rev2.00.png)  
+![](Foto/L2_Rev2.00.png)  
   
 После сборки и отладки были устранены мелкие недостатки.  
 Также по настойчивым просьбам друзей проект получил новое название "Аврора".  
   
 Свет увидела новая версия [2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
   
-![](Foto/L2\_Rev2.01.png)  
+![](Foto/L2_Rev2.01.png)  
   
 Не обошлось и без курьёза.  
 По настойчивой просьбе производителя плат  
@@ -27,16 +27,16 @@
   
 После сборки всё заработало без нареканий.  
   
-![](Foto/L2\_2.01.jpg)  
+![](Foto/L2_2.01.jpg)  
   
 Перед выпуском следующей версии были добавлены индикатор питания и исправлен порт джойстика.  
 В производство отправилась версия [2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
   
-![](Foto/L2\_Rev2.02.png)  
+![](Foto/L2_Rev2.02.png)  
   
-Также был выпущен переходник на Немо и ZX-bus [Gerber](Gerber/L2\_NS\_Rev\_1\_1\_Gerber.zip)  
+Также был выпущен переходник на Немо и ZX-bus [Gerber](Gerber/L2_NS_Rev_1_1_Gerber.zip)  
   
-![](Foto/Back\_L2\_Nemo\_Spec\_PCB.png)  
+![](Foto/Back_L2_Nemo_Spec_PCB.png)  
   
 Его отличие от предыдущего заключается в использовании сигнала /IORQ-GE по прямому назначению.  
 Если раньше /IORQ-GE приходил на A19 (+beta),  
@@ -44,22 +44,22 @@
 То есть в переходнике первой ревизии необходимо отрезать дорожку от A19 и припаять её к A17.  
 Всё! Вы стали обладателем второй ревизии.  
   
-![](Jumpers/L2\_Nemo\_1\_0.jpg)
+![](Jumpers/L2_Nemo_1_0.jpg)  
   
-![](Jumpers/L2\_Nemo\_1\_1.jpg)  
+![](Jumpers/L2_Nemo_1_1.jpg)  
   
 Ну и в связи с тем, что у нас теперь есть полноценный арбитр, появилась возможность  
-добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.html) [Схема](Export/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.pdf) [Gerber](Gerber/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_gerber.zip)  
+добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](Export/Back_L2_Nemo_x3_Spec_Ver2.1.html) [Схема](Export/Back_L2_Nemo_x3_Spec_Ver2.1.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_Spec_Ver2.1_gerber.zip)  
   
-![](Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1\_PCB.png)
+![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1_PCB.png)  
   
-![](Foto/Back\_L2\_Nemo\_x3\_Spec\_Ver2.1.jpg)  
+![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1.jpg)  
   
 Результат оправдал ожидания.  
   
-![](Foto/L2\_2.00.jpg)  
+![](Foto/L2_2.00.jpg)  
   
-## Сборка
+## Сборка  
   
 Как правило, сборка и наладка проблем не вызывают.  
 Хотя всё же проясним назначение перемычек.  
@@ -76,21 +76,21 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
   
 ![](Jumpers/J12.jpg)  
   
-## ПЗУ
+## ПЗУ  
   
 ПЗУ для проекта находятся [тут](ROM)  
   
-## VGA
+## VGA  
   
 Прошивка для RP2040-Zero находится [тут](VGA)  
   
-## Рекомендуемые аксессуары
+## Рекомендуемые аксессуары  
   
 * [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
 * [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
   
-## Авторы и благодарности
+## Авторы и благодарности  
   
 Alex Ekb [Алексей](https://github.com/AlexEkb4ever) — за RGB2VGA-конвертер.  
-Сообществу [Scorpion ZS \& Ленинград](https://t.me/zs\_scorpion) и моим друзьям.  
+Сообществу [Scorpion ZS & Ленинград](https://t.me/zs_scorpion) и моим друзьям.  
 Отдельная благодарность за советы и техпомощь HRDY [Дмитрию](https://github.com/demyanenko-d)
