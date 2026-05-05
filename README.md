@@ -84,7 +84,7 @@
 Для размещения в корпусе.  
 [Gerber](Gerber/ZX-Keyboard_Gerber.zip)  
   
-![](Foto/L2-40Key.png)  
+![](Foto/ZX-Keyboard.png)  
   
 Либо вторым этажём.  
 [Gerber](Gerber/L2-40Key_gerber.zip)  
