@@ -52,3 +52,31 @@
 
 ![](Back_L2_Nemo_x3_Spec_Ver2.1.jpg)  
 
+&#x20; 
+
+## Второй расширитель шины
+
+&#x20; 
+
+![](Back_L2_Nemo_x3_L2_Ver3.1_PCB.png)  
+
+![](Back_L2_Nemo_x3_L2_Ver3.1_PCB.jpg)  
+
+&#x20; 
+
+## Переходник ZX-bus
+
+&#x20; 
+
+![](Nemo2ZX_BUS_v1+2.jpg)  
+
+&#x20; 
+
+## Rkfdbfnehf
+
+&#x20; 
+
+![](ZX-Keyboard.png)  
+
+![](L2-40Key.png)  
+
