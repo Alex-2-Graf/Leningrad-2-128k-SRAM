@@ -59,12 +59,38 @@
   
 ![](Foto/L2_2.00.jpg)  
   
-После небольших раздумий, была разведена новая плата расширения.  
+После небольших раздумий, была разведена новая плата расширения слотов.  
 На ней ZX-bus заменён на разъём от Ленинграда 2.  
 Также был добавлен разьём питания +5/+12в.  
-[Ёлка](Export/Back_L2_Nemo_x3_L2.html) [Схема](Export/Back_L2_Nemo_x3_L2.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_Spec_Ver2.1_gerber.zip)  
-
-
+[Ёлка](Export/Back_L2_Nemo_x3_L2.html) [Схема](Export/Back_L2_Nemo_x3_L2.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
+  
+![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.png)  
+  
+![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.jpg)  
+  
+И вот результат.  
+  
+![](Foto/L2_2.01+.jpg)  
+  
+![](Foto/L2_2.01++.jpg)  
+  
+При этом пламы ZX-bus можно подключать через переходники.  
+[Первый](Gerber/Nemo2ZX_BUS_v1.zip) [Второй](Gerber/Nemo2ZX_BUS_v2.zip)  
+  
+![](Foto/Nemo2ZX_BUS_v1+2.jpg)  
+  
+Так же были разведены 2 версии плат для клавиатуры.  
+  
+Для размещения в корпусе.  
+[Gerber](Gerber/ZX-Keyboard_Gerber.zip)  
+  
+![](Foto/L2-40Key.png)  
+  
+Либо вторым этажём.  
+[Gerber](Gerber/L2-40Key_gerber.zip)  
+  
+![](Foto/L2-40Key.png)  
+  
 ## Сборка  
   
 Как правило, сборка и наладка проблем не вызывают.  
