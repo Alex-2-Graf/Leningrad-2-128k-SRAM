@@ -74,7 +74,7 @@
   
 ![](Foto/L2_2.01++.jpg)  
   
-При этом пламы ZX-bus можно подключать через переходники.  
+При этом платы ZX-bus можно подключать через переходники.  
 [Первый](Gerber/Nemo2ZX_BUS_v1.zip) [Второй](Gerber/Nemo2ZX_BUS_v2.zip)  
   
 ![](Foto/Nemo2ZX_BUS_v1+2.jpg)  
