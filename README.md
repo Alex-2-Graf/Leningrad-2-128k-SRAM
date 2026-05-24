@@ -121,6 +121,7 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
 * [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
 * [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
 * [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
+* [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
   
 ## Авторы и благодарности  
   
