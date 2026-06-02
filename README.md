@@ -95,6 +95,15 @@
   
 ![](Foto/L2-40Key-2.jpg)  
   
+Добавлена плата клавиатуру для кнопок ReDragon-MX-ZT02 и ReDragon_Slim_ZT04  
+[Gerber](Gerber/L2-40Key-slim-GERBER.zip)  
+  
+![](Foto/L2-40Key-slim-1.png)  
+  
+![](Foto/L2-40Key-slim-2.png)  
+  
+---
+  
 ## Сборка  
   
 Как правило, сборка и наладка проблем не вызывают.  
