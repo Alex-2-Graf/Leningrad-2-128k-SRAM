@@ -1,0 +1,152 @@
+# Leningrad-2-128k-SRAM  
+  
+> [English](README.md) | [Русский](README.ru.md)  
+  
+  
+## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.  
+  
+После успешного запуска [Leningrad-2-48k](https://github.com/Alex-2-Graf/LENINGRAD-2-48k) и с учётом предложений сообщества  
+было принято решение использовать в проекте статическую память вместо динамической.  
+Пришлось существенно переделать узел обращения к памяти.  
+Заодно было реализовано расширение до 128K без использования внешних плат.  
+Также на освободившемся месте удалось разместить два чипа YM2149F,  
+тем самым получив «из коробки» Turbo Sound от NedoPC.  
+Также был добавлен арбитр IORQ.  
+  
+В результате на свет появился «Ленинград 2 NEXT 128K + TS 2025».  
+  
+![](Foto/L2_Rev2.00.png)  
+  
+После сборки и отладки были устранены мелкие недостатки.  
+Также по настойчивым просьбам друзей проект получил новое название "Аврора".  
+  
+Свет увидела новая версия [2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
+  
+![](Foto/L2_Rev2.01.png)  
+  
+Не обошлось и без курьёза.  
+По настойчивой просьбе производителя плат  
+пришлось изменить надпись с "Made in" на "Designed in" ;)  
+  
+После сборки всё заработало без нареканий.  
+  
+![](Foto/L2_2.01.jpg)  
+  
+Перед выпуском следующей версии были добавлены индикатор питания и исправлен порт джойстика.  
+В производство отправилась версия [2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
+  
+![](Foto/L2_Rev2.02.png)  
+  
+Также был выпущен переходник на Немо и ZX-bus [Gerber](Gerber/L2_NS_Rev_1_1_Gerber.zip)  
+  
+![](Foto/Back_L2_Nemo_Spec_PCB.png)  
+  
+Его отличие от предыдущего заключается в использовании сигнала /IORQ-GE по прямому назначению.  
+Если раньше /IORQ-GE приходил на A19 (+beta),  
+то теперь он приходит на A17.  
+То есть в переходнике первой ревизии необходимо отрезать дорожку от A19 и припаять её к A17.  
+Всё! Вы стали обладателем второй ревизии.  
+  
+![](Jumpers/L2_Nemo_1_0.jpg)  
+  
+![](Jumpers/L2_Nemo_1_1.jpg)  
+  
+Ну и в связи с тем, что у нас теперь есть полноценный арбитр, появилась возможность  
+добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](Export/Back_L2_Nemo_x3_Spec_Ver2.1.html) [Схема](Export/Back_L2_Nemo_x3_Spec_Ver2.1.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_Spec_Ver2.1_gerber.zip)  
+  
+![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1_PCB.png)  
+  
+![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1.jpg)  
+  
+Результат оправдал ожидания.  
+  
+![](Foto/L2_2.00.jpg)  
+  
+После небольших раздумий, была разведена новая плата расширения слотов.  
+На ней ZX-bus заменён на разъём от Ленинграда 2.  
+Также был добавлен разьём питания +5/+12в.  
+[Ёлка](Export/Back_L2_Nemo_x3_L2.html) [Схема](Export/Back_L2_Nemo_x3_L2.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
+  
+![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.png)  
+  
+![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.jpg)  
+  
+И вот результат.  
+  
+![](Foto/L2_2.01+.jpg)  
+  
+![](Foto/L2_2.01++.jpg)  
+  
+При этом платы ZX-bus можно подключать через переходники.  
+[Первый](Gerber/Nemo2ZX_BUS_v1.zip) [Второй](Gerber/Nemo2ZX_BUS_v2.zip)  
+  
+![](Foto/Nemo2ZX_BUS_v1+2.jpg)  
+  
+Так же были разведены 2 версии плат для клавиатуры.  
+  
+Для размещения в корпусе.  
+[Gerber](Gerber/ZX-Keyboard_Gerber.zip)  
+  
+![](Foto/ZX-Keyboard.png)  
+  
+Либо вторым этажём.  
+[Gerber](Gerber/L2-40Key_gerber.zip)  
+  
+![](Foto/L2-40Key.png)  
+  
+![](Foto/L2-40Key-1.jpg)  
+  
+![](Foto/L2-40Key-2.jpg)  
+  
+Добавлены 2 платы клавиатур для кнопок ReDragon-MX-ZT02 и ReDragon_Slim_ZT04  
+[Gerber](Gerber/L2-40Key-slim-GERBER.zip)  
+  
+![](Foto/L2-40Key-slim-1.png)  
+  
+![](Foto/L2-40Key-slim-2.png)  
+  
+[Gerber](Gerber/ZX-40Key-slim-Gerber.zip)  
+  
+![](Foto/ZX-40Key-slim-1.png)  
+  
+![](Foto/ZX-40Key-slim-2.png)  
+  
+---
+  
+## Сборка  
+  
+Как правило, сборка и наладка проблем не вызывают.  
+Хотя всё же проясним назначение перемычек.  
+&#x20;  
+JP1, JP2 и JP3 замыкаются в случае установки VGA-разъёма.  
+При установке HDMI замыкать их не надо.  
+Но при этом все резисторы R24-31 заменяются на 270 Ом.  
+Джампер J9 необходим для снятия питания с RP2040-Zero при перепрошивке.  
+  
+![](Jumpers/J9.jpg)  
+  
+Джампер J12 необходим для выбора прошивки БДИ  
+в случае установки 27256 с двумя версиями TR-DOS.  
+  
+![](Jumpers/J12.jpg)  
+  
+## ПЗУ  
+  
+ПЗУ для проекта находятся [тут](ROM)  
+  
+## VGA  
+  
+Прошивка для RP2040-Zero находится [тут](VGA)  
+  
+## Рекомендуемые аксессуары  
+  
+* [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
+* [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
+* [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
+* [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
+  
+## Авторы и благодарности  
+  
+Alex Ekb [Алексей](https://github.com/AlexEkb4ever) — за RGB2VGA-конвертер.  
+Сообществу [Scorpion ZS & Ленинград](https://t.me/zs_scorpion) и моим друзьям.  
+Отдельная благодарность за советы и техпомощь HRDY [Дмитрию](https://github.com/demyanenko-d)

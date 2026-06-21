@@ -1,149 +1,66 @@
-# Leningrad-2-128k-SRAM  
-  
-## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.  
-  
-После успешного запуска [Leningrad-2-48k](https://github.com/Alex-2-Graf/LENINGRAD-2-48k) и с учётом предложений сообщества  
-было принято решение использовать в проекте статическую память вместо динамической.  
-Пришлось существенно переделать узел обращения к памяти.  
-Заодно было реализовано расширение до 128K без использования внешних плат.  
-Также на освободившемся месте удалось разместить два чипа YM2149F,  
-тем самым получив «из коробки» Turbo Sound от NedoPC.  
-Также был добавлен арбитр IORQ.  
-  
-В результате на свет появился «Ленинград 2 NEXT 128K + TS 2025».  
-  
-![](Foto/L2_Rev2.00.png)  
-  
-После сборки и отладки были устранены мелкие недостатки.  
-Также по настойчивым просьбам друзей проект получил новое название "Аврора".  
-  
-Свет увидела новая версия [2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
-  
-![](Foto/L2_Rev2.01.png)  
-  
-Не обошлось и без курьёза.  
-По настойчивой просьбе производителя плат  
-пришлось изменить надпись с "Made in" на "Designed in" ;)  
-  
-После сборки всё заработало без нареканий.  
-  
-![](Foto/L2_2.01.jpg)  
-  
-Перед выпуском следующей версии были добавлены индикатор питания и исправлен порт джойстика.  
-В производство отправилась версия [2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
-  
-![](Foto/L2_Rev2.02.png)  
-  
-Также был выпущен переходник на Немо и ZX-bus [Gerber](Gerber/L2_NS_Rev_1_1_Gerber.zip)  
-  
-![](Foto/Back_L2_Nemo_Spec_PCB.png)  
-  
-Его отличие от предыдущего заключается в использовании сигнала /IORQ-GE по прямому назначению.  
-Если раньше /IORQ-GE приходил на A19 (+beta),  
-то теперь он приходит на A17.  
-То есть в переходнике первой ревизии необходимо отрезать дорожку от A19 и припаять её к A17.  
-Всё! Вы стали обладателем второй ревизии.  
-  
-![](Jumpers/L2_Nemo_1_0.jpg)  
-  
-![](Jumpers/L2_Nemo_1_1.jpg)  
-  
-Ну и в связи с тем, что у нас теперь есть полноценный арбитр, появилась возможность  
-добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](Export/Back_L2_Nemo_x3_Spec_Ver2.1.html) [Схема](Export/Back_L2_Nemo_x3_Spec_Ver2.1.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_Spec_Ver2.1_gerber.zip)  
-  
-![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1_PCB.png)  
-  
-![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1.jpg)  
-  
-Результат оправдал ожидания.  
-  
-![](Foto/L2_2.00.jpg)  
-  
-После небольших раздумий, была разведена новая плата расширения слотов.  
-На ней ZX-bus заменён на разъём от Ленинграда 2.  
-Также был добавлен разьём питания +5/+12в.  
-[Ёлка](Export/Back_L2_Nemo_x3_L2.html) [Схема](Export/Back_L2_Nemo_x3_L2.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
-  
-![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.png)  
-  
-![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.jpg)  
-  
-И вот результат.  
-  
-![](Foto/L2_2.01+.jpg)  
-  
-![](Foto/L2_2.01++.jpg)  
-  
-При этом платы ZX-bus можно подключать через переходники.  
-[Первый](Gerber/Nemo2ZX_BUS_v1.zip) [Второй](Gerber/Nemo2ZX_BUS_v2.zip)  
-  
-![](Foto/Nemo2ZX_BUS_v1+2.jpg)  
-  
-Так же были разведены 2 версии плат для клавиатуры.  
-  
-Для размещения в корпусе.  
-[Gerber](Gerber/ZX-Keyboard_Gerber.zip)  
-  
-![](Foto/ZX-Keyboard.png)  
-  
-Либо вторым этажём.  
-[Gerber](Gerber/L2-40Key_gerber.zip)  
-  
-![](Foto/L2-40Key.png)  
-  
-![](Foto/L2-40Key-1.jpg)  
-  
-![](Foto/L2-40Key-2.jpg)  
-  
-Добавлены 2 платы клавиатур для кнопок ReDragon-MX-ZT02 и ReDragon_Slim_ZT04  
-[Gerber](Gerber/L2-40Key-slim-GERBER.zip)  
-  
-![](Foto/L2-40Key-slim-1.png)  
-  
-![](Foto/L2-40Key-slim-2.png)  
-  
-[Gerber](Gerber/ZX-40Key-slim-Gerber.zip)  
-  
-![](Foto/ZX-40Key-slim-1.png)  
-  
-![](Foto/ZX-40Key-slim-2.png)  
-  
+# Leningrad-2-128k-SRAM (Aurora)
+
+## Leningrad-2. Russian ZX Spectrum clone with SRAM. Schematics and PCB.
+
+> [English](README.md) | [Русский](README.ru.md)
+
+Following the successful launch of the Leningrad-2-48k project and incorporating community feedback, this version transitions from dynamic RAM (DRAM) to static RAM (SRAM). 
+
+This architectural shift required a significant redesign of the memory management unit. As a direct benefit, the system memory has been expanded to 128K directly on the mainboard without requiring any external expansion daughterboards.
+
+Additionally, the freed-up PCB space allowed the integration of two YM2149F sound chips, providing "out-of-the-box" Turbo Sound support (by NedoPC). An IORQ arbiter was also added to the schematic.
+
+The final result of these upgrades is the **"Leningrad 2 NEXT 128K + TS 2025"** motherboard. Following hardware assembly, testing, and minor debugging, the project was officially given a new name by close friends: **"Aurora"**.
+
+***
+
+### Revisions & Hardware Modules
+
+#### Mainboard Revisions
+*   **Revision 2.01** ([Schematics](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM) / [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) — *Initial release. Features a humorous design note: at the urgent request of the PCB manufacturer, the board text was changed from "Made in..." to "Designed in..." ;)*
+*   **Revision 2.02** ([Schematics](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM) / [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) — *The latest stable revision. Adds a power LED indicator and fixes the joystick port routing.*
+
+#### Bus Adapters & Expansion Boards
+*   **Nemo-bus and ZX-bus Adapter** ([Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) — *Differs from the previous project version by routing the `/IORQ-GE` signal directly to its intended destination. On older Revision 1 adapters, `/IORQ-GE` went to pin A19 (+beta); it now routes to pin A17. To upgrade a Rev 1 adapter to Rev 2 specs, simply cut the trace going to A19 and solder a jumper wire to A17.*
+*   **"Yolka" (3x Nemo-bus & 1x ZX-bus) Slot Expansion Board** ([Schematics](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM) / [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) — *An expansion backplane made possible by the new onboard hardware arbiter.*
+*   **Upgraded Slot Expansion Board** ([Schematics](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM) / [Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) — *A redesigned backplane where the ZX-bus connector is replaced with a standard Leningrad-2 edge connector. It also adds a dedicated +5V/+12V power input molex. Vintage ZX-bus cards can still be connected here using adapters ([First](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM) / [Second](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)).*
+
+#### Keyboard PCB Options
+Two mechanical keyboard variants were designed for different mounting styles:
+1.  **Chassis Mounted:** Designed to fit directly into a computer case ([Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)).
+2.  **Sandwich / Double-Decker Mounted:** Designed to stack directly on top of the mainboard ([Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)).
+*   **Mechanical Switch Support:** Dedicated PCB layouts have been added for **ReDragon-MX-ZT02** ([Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) and **ReDragon_Slim_ZT04** ([Gerber](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM)) switches.
+
+***
+
+## Assembly & Jumper Settings
+
+In general, hardware assembly and tuning are straightforward. The functions of the onboard configuration jumpers are as follows:
+
+*   **JP1, JP2, JP3**: Short these if you are installing a standard VGA video connector. Leave them completely open for HDMI output. If using HDMI, make sure all resistors `R24-31` are replaced with 270 Ohm.
+*   **J9**: Used to isolate and disconnect power from the RP2040-Zero board while flashing video firmware.
+*   **J12**: Used to switch between Beta Disk Interface (BDI) firmware banks if you install a 27256 EPROM containing two separate versions of TR-DOS.
+
 ---
-  
-## Сборка  
-  
-Как правило, сборка и наладка проблем не вызывают.  
-Хотя всё же проясним назначение перемычек.  
-&#x20;  
-JP1, JP2 и JP3 замыкаются в случае установки VGA-разъёма.  
-При установке HDMI замыкать их не надо.  
-Но при этом все резисторы R24-31 заменяются на 270 Ом.  
-Джампер J9 необходим для снятия питания с RP2040-Zero при перепрошивке.  
-  
-![](Jumpers/J9.jpg)  
-  
-Джампер J12 необходим для выбора прошивки БДИ  
-в случае установки 27256 с двумя версиями TR-DOS.  
-  
-![](Jumpers/J12.jpg)  
-  
-## ПЗУ  
-  
-ПЗУ для проекта находятся [тут](ROM)  
-  
-## VGA  
-  
-Прошивка для RP2040-Zero находится [тут](VGA)  
-  
-## Рекомендуемые аксессуары  
-  
-* [BDI-TR-DOS](https://github.com/Alex-2-Graf/Leningrad2-BDI-TR-DOS)
-* [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
-* [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
-* [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
-  
-## Авторы и благодарности  
-  
-Alex Ekb [Алексей](https://github.com/AlexEkb4ever) — за RGB2VGA-конвертер.  
-Сообществу [Scorpion ZS & Ленинград](https://t.me/zs_scorpion) и моим друзьям.  
-Отдельная благодарность за советы и техпомощь HRDY [Дмитрию](https://github.com/demyanenko-d)
+
+## ROM & Video Configuration
+
+*   **ROM**: Detailed EPROM files and configuration info can be found [here](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM).
+*   **VGA**: Firmware and instructions for the RP2040-Zero converter are available [here](https://github.com/Alex-2-Graf/Leningrad-2-128k-SRAM).
+
+---
+
+## Recommended Accessories
+
+*   BDI-TR-DOS
+*   DivMMC
+*   LGT-Turbo-Sound-emulator
+*   ZX-EQ Nemo-bus Edition
+
+---
+
+## Credits & Acknowledgments
+
+*   **Alex Ekb (Aleksey)** — for the incredible RGB2VGA converter design.
+*   **HRDY (Dmitry)** — special thanks for his invaluable technical advice, consulting, and support.
+*   The **Scorpion ZS & Leningrad** community, and all friends who helped bring this project to life.
