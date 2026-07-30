@@ -65,7 +65,7 @@
 После небольших раздумий, была разведена новая плата расширения слотов.  
 На ней ZX-bus заменён на разъём от Ленинграда 2.  
 Также был добавлен разьём питания +5/+12в.  
-[iBOMЁлка](Export/Back_L2_Nemo_x3_L2.html)   [Схема](Export/Back_L2_Nemo_x3_L2.pdf)   [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
+[iBOM Ёлка](Export/Back_L2_Nemo_x3_L2.html)   [Схема](Export/Back_L2_Nemo_x3_L2.pdf)   [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
   
 ![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.png)  
   
