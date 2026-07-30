@@ -20,7 +20,7 @@
 После сборки и отладки были устранены мелкие недостатки.  
 Также по настойчивым просьбам друзей проект получил новое название "Аврора".  
   
-Свет увидела новая версия [2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
+Свет увидела новая версия [iBOM 2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
   
 ![](Foto/L2_Rev2.01.png)  
   
@@ -33,7 +33,7 @@
 ![](Foto/L2_2.01.jpg)  
   
 Перед выпуском следующей версии были добавлены индикатор питания и исправлен порт джойстика.  
-В производство отправилась версия [2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
+В производство отправилась версия [iBOM 2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
   
 ![](Foto/L2_Rev2.02.png)  
   
