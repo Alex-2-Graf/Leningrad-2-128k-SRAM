@@ -20,7 +20,7 @@
 После сборки и отладки были устранены мелкие недостатки.  
 Также по настойчивым просьбам друзей проект получил новое название "Аврора".  
   
-Свет увидела новая версия [iBOM 2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
+Свет увидела новая версия [iBOM 2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html)   [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf)   [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
   
 ![](Foto/L2_Rev2.01.png)  
   
@@ -33,7 +33,7 @@
 ![](Foto/L2_2.01.jpg)  
   
 Перед выпуском следующей версии были добавлены индикатор питания и исправлен порт джойстика.  
-В производство отправилась версия [iBOM 2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html) [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf) [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
+В производство отправилась версия [iBOM 2.02](Export/Leningrad%202%20128k%20SRAM%202.02%202025.html)   [Схема](Export/Leningrad%202%20128k%20SRAM%202.02%202025.pdf)   [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.02%202025%20Gerber.zip)  
   
 ![](Foto/L2_Rev2.02.png)  
   
@@ -52,7 +52,7 @@
 ![](Jumpers/L2_Nemo_1_1.jpg)  
   
 Ну и в связи с тем, что у нас теперь есть полноценный арбитр, появилась возможность  
-добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [Ёлка](Export/Back_L2_Nemo_x3_Spec_Ver2.1.html) [Схема](Export/Back_L2_Nemo_x3_Spec_Ver2.1.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_Spec_Ver2.1_gerber.zip)  
+добавить и плату расширения слотов до 3-х Немо и одного ZX-bus [iBOM Ёлка](Export/Back_L2_Nemo_x3_Spec_Ver2.1.html)   [Схема](Export/Back_L2_Nemo_x3_Spec_Ver2.1.pdf)   [Gerber](Gerber/Back_L2_Nemo_x3_Spec_Ver2.1_gerber.zip)  
   
 ![](Foto/Back_L2_Nemo_x3_Spec_Ver2.1_PCB.png)  
   
@@ -65,7 +65,7 @@
 После небольших раздумий, была разведена новая плата расширения слотов.  
 На ней ZX-bus заменён на разъём от Ленинграда 2.  
 Также был добавлен разьём питания +5/+12в.  
-[Ёлка](Export/Back_L2_Nemo_x3_L2.html) [Схема](Export/Back_L2_Nemo_x3_L2.pdf) [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
+[iBOMЁлка](Export/Back_L2_Nemo_x3_L2.html)   [Схема](Export/Back_L2_Nemo_x3_L2.pdf)   [Gerber](Gerber/Back_L2_Nemo_x3_L2_gerber.zip)  
   
 ![](Foto/Back_L2_Nemo_x3_L2_Ver3.1_PCB.png)  
   
@@ -78,7 +78,7 @@
 ![](Foto/L2_2.01++.jpg)  
   
 При этом платы ZX-bus можно подключать через переходники.  
-[Первый](Gerber/Nemo2ZX_BUS_v1.zip) [Второй](Gerber/Nemo2ZX_BUS_v2.zip)  
+[Первый](Gerber/Nemo2ZX_BUS_v1.zip)   [Второй](Gerber/Nemo2ZX_BUS_v2.zip)  
   
 ![](Foto/Nemo2ZX_BUS_v1+2.jpg)  
   
