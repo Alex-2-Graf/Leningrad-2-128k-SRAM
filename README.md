@@ -111,6 +111,12 @@
   
 ![](Foto/ZX-40Key-slim-2.png)  
   
+Для удобства запайки кнопок, можно распечатать рамку.  [Файл для печати](Export/AuroraKeys.stl)
+  
+![](Foto/AuroraKeys-1.jpg)  
+
+![](Foto/AuroraKeys-2.jpg)  
+  
 ---
   
 ## Сборка  
