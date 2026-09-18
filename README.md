@@ -117,7 +117,7 @@
 ![](Foto/ZX-40Key-slim-2.png)  
   
 Для удобства запайки кнопок, можно распечатать рамку.  [Файл для печати](Export/AuroraKeys.stl)  
-Для маленькой платы рамка меньше. [Файл для печати](Export/KeyboardJig_Alex2Graf.stl)  
+Для маленькой платы рамка меньше. [Файл для печати](Export/AuroraKeys_small.stl)  
   
 ![](Foto/AuroraKeys-1.jpg)  
 
