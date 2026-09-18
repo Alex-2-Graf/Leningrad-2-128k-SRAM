@@ -2,6 +2,7 @@
   
 > [English](README.en.md) | [Русский](README.md)  
   
+---
   
 ## Leningrad-2. Russian ZX Spectrum clone. Schematics and PCB.  
   
@@ -82,6 +83,10 @@
   
 ![](Foto/Nemo2ZX_BUS_v1+2.jpg)  
   
+---
+  
+## Клавиатура  
+  
 Так же были разведены 2 версии плат для клавиатуры.  
   
 Для размещения в корпусе.  
@@ -120,6 +125,14 @@
   
 ---
   
+## Корпус  
+  
+Корпус можно использовать от [PentoGraf-Pentagon-1024k](https://github.com/Alex-2-Graf/PentoGraf-Pentagon-1024k)  
+  
+![](Foto/19-finished.jpg) 
+  
+---
+  
 ## Сборка  
   
 Как правило, сборка и наладка проблем не вызывают.  
@@ -137,13 +150,19 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
   
 ![](Jumpers/J12.jpg)  
   
+---
+  
 ## ПЗУ  
   
 ПЗУ для проекта находятся [тут](ROM)  
   
+---
+  
 ## VGA  
   
 Прошивка для RP2040-Zero находится [тут](VGA)  
+  
+---
   
 ## Рекомендуемые аксессуары  
   
@@ -151,6 +170,8 @@ JP1, JP2 и JP3 замыкаются в случае установки VGA-ра
 * [DivMMC](https://github.com/Alex-2-Graf/Leningrad2-DivMMC)
 * [LGT-Turbo-Sound-emulator](https://github.com/Alex-2-Graf/LGT-Turbo-Sound-emulator)
 * [ZX-EQ Nemo-bus Edition](https://github.com/Alex-2-Graf/ZX-EQ)
+   
+---
   
 ## Авторы и благодарности  
   
