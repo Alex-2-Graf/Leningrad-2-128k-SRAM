@@ -127,7 +127,13 @@
   
 ## Корпус  
   
-Корпус можно использовать от [PentoGraf-Pentagon-1024k](https://github.com/Alex-2-Graf/PentoGraf-Pentagon-1024k)  
+Наш коллега Сергей заказал разработку корпуса. Ему помогли Антон и Филипп.
+  
+Файлы для печати [тут](Export/Case)  
+  
+![](Foto/Case.jpg)  
+  
+Также можно использовать корпус от [PentoGraf-Pentagon-1024k](https://github.com/Alex-2-Graf/PentoGraf-Pentagon-1024k)  
   
 ![](Foto/19-finished.jpg) 
   
