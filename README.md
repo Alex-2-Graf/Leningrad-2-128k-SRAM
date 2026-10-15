@@ -131,7 +131,13 @@
   
 Файлы для печати [тут](Export/Case)  
   
-![](Foto/Case.jpg)  
+![](Foto/Case-1.jpg)  
+  
+![](Foto/Case-2.jpg)  
+  
+![](Foto/Case-3.jpg)  
+  
+![](Foto/Case-4.jpg)  
   
 Также можно использовать корпус от [PentoGraf-Pentagon-1024k](https://github.com/Alex-2-Graf/PentoGraf-Pentagon-1024k)  
   
