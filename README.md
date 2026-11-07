@@ -20,7 +20,7 @@
   
 После сборки и отладки были устранены мелкие недостатки.  
 Также по настойчивым просьбам друзей проект получил новое название "Аврора".  
-  
+
 Свет увидела новая версия [iBOM 2.01](Export/Leningrad%202%20128k%20SRAM%202.01%202025.html)   [Схема](Export/Leningrad%202%20128k%20SRAM%202.01%202025.pdf)   [Gerber](Gerber/Leningrad%202%20128k%20SRAM%202.01%202025%20gerber%20made%20in%20Italy.zip)  
   
 ![](Foto/L2_Rev2.01.png)  
@@ -94,7 +94,7 @@
   
 ![](Foto/ZX-Keyboard.png)  
   
-Либо вторым этажём.  
+Либо вторым этажом.  
 [Gerber](Gerber/L2-40Key_gerber.zip)  
   
 ![](Foto/L2-40Key.png)  
